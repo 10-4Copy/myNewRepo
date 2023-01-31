@@ -37,7 +37,7 @@ int main()
     cin >> userInput;
 
      // analyze user answer
-    if (userInput == "good" || userInput == "great" || userInput == "fine") {
+    if (userInput != "good" || userInput != "great" || userInput != "fine") {
         std::cout << "Great to hear that!\n";
         } else {
         std::cout << "Sorry, hope you feel better.\n";
